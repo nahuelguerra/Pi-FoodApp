@@ -1,0 +1,112 @@
+.container{
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: flex-start;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    text-shadow: 2px 2px  rgb(0, 0, 0);
+    font-family: 'Fredoka One', cursive;
+    font-size:20px;
+}
+.divDetail{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    width: 90%;
+    height: 80%;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/06/06/22/37/italian-cuisine-2378729_960_720.jpg');
+    background-size: cover;
+    box-shadow: -1px 3px 6px 18px rgba(0,0,0,0.8);
+-webkit-box-shadow: -1px 3px 6px 18px rgba(0,0,0,0.8);
+-moz-box-shadow: -1px 3px 6px 18px rgba(0,0,0,0.8);
+}
+.centerTitles{
+    text-align: center;
+
+}
+.divImgPs{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.divCampos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.divImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/02/07/09/02/wood-2045380_960_720.jpg');
+    height: 95vh;
+    opacity: 3;
+    width: 35%;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    box-shadow: -13px 8px 6px 21px rgba(0,0,0,0.8);
+-webkit-box-shadow: -13px 8px 6px 21px rgba(0,0,0,0.8);
+-moz-box-shadow: -13px 8px 6px 21px rgba(0,0,0,0.8);
+}
+
+.divimg{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.divPs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/02/07/09/02/wood-2045380_960_720.jpg');
+    width: 55%;
+    object-fit: contain;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    box-shadow: 13px 8px 6px 21px rgba(0,0,0,0.8);
+-webkit-box-shadow: 13px 8px 6px 21px rgba(0,0,0,0.8);
+-moz-box-shadow: 13px 8px 6px 21px rgba(0,0,0,0.8);
+}
+.divBtn{
+    padding: 30px;
+}
+.btn{
+    border-radius: 12px;
+    font-family: 'Fredoka One', cursive;
+    background: white ;
+    border: 2px solid greenyellow;
+    font-size: 30px;
+    box-shadow: -1px 3px 6px 9px rgba(0,0,0,0.8);
+-webkit-box-shadow: -1px 3px 6px 9px rgba(0,0,0,0.8);
+-moz-box-shadow: -1px 3px 6px 9px rgba(0,0,0,0.8);
+}
+.title{
+    text-align: center;
+     font-size: 48px;
+}
+.btn:hover{
+    background: linear-gradient(to bottom right, rgb(87, 244, 25), yellow) ;
+    border: 2px solid white;
+    color: white;
+    text-shadow: 2px 2px black;
+}
